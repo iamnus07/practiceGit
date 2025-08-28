@@ -1,0 +1,41 @@
+git and git hub::
+
+loacal folder creat:
+
+   1: at first where to create folder select and copy it :
+   2: then write (cd ) command then ("folder path")
+   3: then write for creating new folder (mkdir (folder name)
+   4: then write (cd new folder name) command for opening the new folder 
+   5: for creating a new file write (touch {file name .(dot) file extension}
+
+
+stage the file ::
+
+    1: git add . { add the all file in the folder}
+    2: git add * { add the all file expect deleted one }
+    3: git add myfolder/new.txt {selected folder , selected file}
+    4: git add new.txt { only add the selected file}
+
+
+commit the repo : 
+
+     1: git commit -m "{your comments what you change or add}"
+     2: git reset HEAD~ ( git reset after the commit ) 
+     3: git status (for checking git status);
+
+ git deleted:
+
+     1: git rm {your file name} to work done remove and delete at the same time:
+        but when you deleted a file manually its cannot add in stage . you have to again
+        add.
+     2: git reset --hard {changes with including deleted file}
+
+     **3: git rm {your file name} - f  {when you are commit a file , and then make a 
+       change in file. you cannot deleted
+        the file }
+      
+
+     4: git rm cached {your file name} (just changes up on the stage , do not 
+        deleted working file directory)
+
+     5: 
