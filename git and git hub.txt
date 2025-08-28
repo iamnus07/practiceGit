@@ -38,4 +38,31 @@ commit the repo :
      4: git rm cached {your file name} (just changes up on the stage , do not 
         deleted working file directory)
 
-     5: 
+     5: git rm -r(recursive) folder {when folder in folder deleted)
+
+
+git branching :
+
+       1: git branch {current branch is main)
+       2: git branch development { creat a new branch}
+       3: git checkout development {switch to development branch}
+       4: when you are in development branch . and make changes in the folder and then
+          commit , but later you switch to in the main branch , then the changes also 
+          deleted in the your local file directory.
+          { remember that must be commit in the development branch}
+       5: git merge main -m "merging on deveelopment with main"{merging or adding two 
+         branch}
+       6:git merge development -m"merging on main with development"
+
+       7: merge conflict : when a 2 developer working 2 different branch but they creat a 
+          file with same name,
+
+git push ::
+       1: creat a repo in GitHub , and then 
+       2; git remote add origin { GitHub repo link}
+       3: git push origin main --force
+       4: add the other branch : first switch the branch
+          then git push origin staging etc 
+
+
+       
